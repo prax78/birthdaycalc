@@ -1,12 +1,12 @@
 html {
     background-color: black;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
 }
 
 .body {
     align-content: center;
     text-align: center;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     font-size: smaller;
     color: whitesmoke;
     padding-left: 2px;
@@ -27,7 +27,7 @@ html {
 .hl-class {
     align-content: center;
     text-align: center;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     font-size: medium;
     color: whitesmoke;
     border-style: double;
@@ -46,7 +46,7 @@ html {
     align-items: flex-start;
     text-align: justify;
     font-size: smaller;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     color: whitesmoke
 }
 
@@ -60,7 +60,7 @@ input {
     align-content: center;
     background-color: gray;
     text-align: justify;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     font-size: smaller;
     color: whitesmoke;
     background-color: black;
@@ -71,7 +71,7 @@ input {
     align-content: center;
     background-color: gray;
     text-align: justify;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     font-size: smaller;
     color: whitesmoke;
     background-color: black;
@@ -82,7 +82,7 @@ input {
     align-content: center;
     background-color: gray;
     text-align: justify;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     font-size: smaller;
     color: whitesmoke;
     background-color: black;
@@ -90,7 +90,7 @@ input {
 
 ol {
     list-style-type: square;
-    font-family: 'Chivo Mono', monospace;
+    font-family: 'Lobster Two', cursive;
     font-size: smaller;
     color: whitesmoke;
     text-align: justify;
