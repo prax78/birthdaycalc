@@ -1,13 +1,13 @@
 html {
     background-color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Chivo Mono', monospace;
 }
 
 .body {
     align-content: center;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
     color: whitesmoke;
     padding-left: 2px;
 }
@@ -27,8 +27,8 @@ html {
 .hl-class {
     align-content: center;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-family: 'Chivo Mono', monospace;
+    font-size: medium;
     color: whitesmoke;
     border-style: double;
     border-top-color: blueviolet;
@@ -45,8 +45,8 @@ html {
     background-color: black;
     align-items: flex-start;
     text-align: justify;
-    font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    font-family: 'Chivo Mono', monospace;
     color: whitesmoke
 }
 
@@ -60,8 +60,8 @@ input {
     align-content: center;
     background-color: gray;
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
     color: whitesmoke;
     background-color: black;
 }
@@ -71,8 +71,8 @@ input {
     align-content: center;
     background-color: gray;
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
     color: whitesmoke;
     background-color: black;
 }
@@ -82,16 +82,16 @@ input {
     align-content: center;
     background-color: gray;
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
     color: whitesmoke;
     background-color: black;
 }
 
 ol {
     list-style-type: square;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-family: 'Chivo Mono', monospace;
+    font-size: smaller;
     color: whitesmoke;
     text-align: justify;
     ;
