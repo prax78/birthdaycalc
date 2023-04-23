@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<title>BirthDayCalc</title>
+
+<head>
+
+    <!--<meta http-equiv="refresh" content="8">-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,900&display=swap" rel="stylesheet">
+
+
+    <link href="./main.css" rel="stylesheet">
+
+</head>
+
+<body onload="getYears()">
+    <div class="body">
+        <header class="my-header">
+            <p><a href="https://prakash78blog.wordpress.com">My Blog</a></p>
+        </header>
+        <div class="h1-class">
+            <h1 class="hl-class">🍰 Day of your Birth Calculator 🎂</h1>
+        </div>
+        <div>
+            <section class="section">
+                <p>
+                    This app will help you calculate exactly when will you be having the same day of the week you were born on.
+                    <p>For Example if someone were born on <strong>1/1/1970, Wednesday</strong>, the app will calculate when the next time <strong> Wednesday</strong> will come.</p>
+                    <p>Like <strong>1/1/1980 Wednesday</strong></p>
+                    <p><strong>1/1/2000 Wednesday </strong>and so on...</p>
+                </p>
+
+            </section>
+            <section class="section">
+                <p>
+                    This is a client side javascript app, your data is <strong>not being sent anywhere</strong> 😊😊😊😊.
+                </p>
+                <p>
+                    Please enjoy and have fun!! 😍
+                </p>
+            </section>
+        </div>
+        <br>
+        <div id="main">
+            <label for="in">Enter Your Birthday</label>
+            <input type="date" id="in" min="1945-01-01" max="2090-01-01">
+            <button type="submit" class="btn-design" onclick="birthDays()">Go!!</button>
+            <br>
+
+        </div>
+        <div>
+            <p class="label-notification">*Only 1945- to the Current Year is a valid entry</p>
+            <p class="label-notification">*Calculations is only for the next 80 years</p>
+
+        </div>
+
+        <script src="bday.js"></script>
+</body>
+
+</html>

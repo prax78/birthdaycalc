@@ -1,0 +1,128 @@
+html {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body {
+    align-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: whitesmoke;
+    padding-left: 2px;
+}
+
+.section {
+    text-align: justify;
+    color: rgb(223, 201, 201);
+}
+
+.btn-design {
+    background: rgb(73, 82, 199);
+    color: antiquewhite;
+    border-color: black;
+    border-radius: 25%;
+}
+
+.hl-class {
+    align-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: whitesmoke;
+    border-style: double;
+    border-top-color: blueviolet;
+    border-bottom-color: chocolate;
+    border-left-color: crimson;
+    border-right-color: darkmagenta;
+    text-decoration-line: underline;
+    text-decoration-color: darkmagenta;
+    text-decoration-thickness: 3px;
+    height: 28px;
+}
+
+#main {
+    background-color: black;
+    align-items: flex-start;
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke
+}
+
+input {
+    background-color: rgb(179, 117, 117);
+    color: wheat;
+}
+
+.para1-class {
+    padding-left: 2px;
+    align-content: center;
+    background-color: gray;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.para2-class {
+    padding-left: 2px;
+    align-content: center;
+    background-color: gray;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.para3-class {
+    padding-left: 2px;
+    align-content: center;
+    background-color: gray;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: whitesmoke;
+    background-color: black;
+}
+
+ol {
+    list-style-type: square;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: whitesmoke;
+    text-align: justify;
+    ;
+}
+
+li {
+    flex-direction: row;
+    font-style: italic;
+}
+
+.label-notification {
+    font-size: smaller;
+    text-align: left;
+    color: rgba(128, 128, 128, 0.848);
+}
+
+.my-header {
+    align-content: flex-start;
+    text-align: left;
+    color: antiquewhite;
+    font-size: smaller;
+}
+
+a:visited {
+    color: antiquewhite;
+}
+
+a:link {
+    color: pink;
+}
+
+a:hover {
+    color: pink;
+}
