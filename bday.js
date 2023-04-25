@@ -31,9 +31,10 @@ function birthDays() {
         let one = new Date(year, month, day);
         let two = new Date(Date.now());
         //const age = `${(two-one).toFixed(1).split('.')[0]} years and ${(two-one).toFixed(1).split('.')[1] } months`;
-        const age = (((two - one) / 86400000) / 365).toFixed(1);
+        const age = (((two - one) / 86400000) / 365).toFixed(2);
         const ageyears = age.split('.')[0];
-        const agemonth = age.split('.')[1];
+        const temp = age.split('.')[1] / 100;
+        const agemonth = ((temp * 365) / 30).toFixed(0);
         const para3 = document.body.appendChild(document.createElement('p'));
         para3.setAttribute('id', 'para3');
         para3.className = "para3-class"
