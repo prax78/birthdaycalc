@@ -122,10 +122,54 @@ a:visited {
     color: antiquewhite;
 }
 
-a:link {
+li a:link {
     color: antiquewhite;
 }
 
-a:hover {
+li a:hover {
     color: pink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: inline-start;
+}
+
+#flags {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+#flags td,
+#flags th {
+    border: 1px solid #b8ca45cf;
+    padding: 8px;
+}
+
+#flags tr:nth-child(even) {
+    background-color: #485258;
+}
+
+#flags tr:nth-child(odd) {
+    background-color: #031a21e9;
+}
+
+#flags tr:hover {
+    background-color: #91407c;
+}
+
+#flags th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #010906d7;
+    color: white;
 }
