@@ -54,7 +54,7 @@ function birthDays() {
             }
 
         }
-        const isLi = document.querySelector('li');
+        const isLi = document.getElementById("bList");
         if (isLi !== null) {
             document.body.removeChild(isLi.parentNode);
         }
@@ -70,6 +70,7 @@ function birthDays() {
         for (let s of storedate) {
 
             const li = el.appendChild(document.createElement('li'));
+            li.id = "bList";
             li.innerHTML = s;
 
         }
